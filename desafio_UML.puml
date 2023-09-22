@@ -1,0 +1,66 @@
+@startuml "desafio-uml"
+
+interface IPhone {
+
+    login: Long
+    nome : String
+    dtLancamento: Date
+    senha: String
+
+
+    liga()
+    desliga()
+    aumentaVol()
+    abaixaVol()
+    clique()
+}  
+
+ 
+
+class ReprodutorMusical {
+
+    musicasFavoritas: String
+    albuns: String
+    artistasFavoritos: String
+    
+    tocar() 
+    pausar()
+    selecionarMusica()
+}
+
+ 
+
+class AparelhoTelefonico {
+
+    nomeContatos: String
+    numeroTelefone: Long
+
+    ligar()
+    atender()
+    iniciarCorrerioVoz()
+
+}
+
+ 
+
+
+class NavegadorInternet{
+
+    site: String
+    historico: String
+
+    exibirPagina()
+    adicionarNovaAba()
+    atualizarPagina()
+
+}
+
+ 
+
+IPhone *-- ReprodutorMusical
+
+IPhone *-- AparelhoTelefonico
+
+IPhone *-- NavegadorInternet
+
+@enduml
