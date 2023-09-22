@@ -8,7 +8,7 @@ Esse desafio foi realizado utilizando o Visual Studio Code e o Plantuml.
 
 # Criação das Classes e Interfaces utilizando linguagem Java
 
-- [Código em Java](duml\cod-uml)
+- [Código em Java]([duml\cod-uml](https://github.com/liviasgcamargo/poo_desafio_dio/blob/main/duml/cod-uml))
 
 #
 
@@ -17,6 +17,6 @@ Esse desafio foi realizado utilizando o Visual Studio Code e o Plantuml.
 <img src="duml\desafio-uml.png" alt="Desafio UML">
 
 #
-- [Código do Diagrama](duml\desafio_UML.puml)
+- [Código do Diagrama]([duml\desafio_UML.puml](https://github.com/liviasgcamargo/poo_desafio_dio/blob/main/duml/desafio_UML.puml))
 
 #
